@@ -1,7 +1,15 @@
 package Actions;
 
+
+import Entities.Creature.Creature;
+import Tools.Field;
+
+import java.util.ArrayList;
+
 public interface Action {
 
+
+void perform(Field field);
 
 
 //    Actions.Action - действие, совершаемое над миром. Например - сходить всеми существами.
