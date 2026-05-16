@@ -27,6 +27,8 @@ public class Ecosystem {
 
 
         while (true) {
+
+            Thread.sleep(300);
             turnCounter++;
             System.out.println("TURN " + turnCounter);
 
